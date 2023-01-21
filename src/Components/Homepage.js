@@ -9,7 +9,9 @@ const Homepage = () =>{
         <div className='pizza-img'>
             <p>Thank you for choosing Lambda Eats pizzaria!</p>
             <p>Please press the button and it will take you to the pizza customization page!</p>
-            <button><Link to='/pizza'>Press me for Pizza</Link></button>
+            <button>
+                <Link to='/pizza'>Press me for Pizza</Link>
+            </button>
            
             <img
             className='firstImg'
