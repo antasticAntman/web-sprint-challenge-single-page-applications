@@ -3,7 +3,7 @@ import React from 'react'
 const Form = (props) => {
 
     const {change, submit, errors} = props;
-    const{name,size,special,checked }= props.values
+    const{ name, size, special, topping1, topping2, topping3, topping4 }= props.values
 
 
     const onChange = (e) =>{
@@ -45,7 +45,7 @@ const Form = (props) => {
                 <input
                 type='checkbox'
                 name='topping1'
-                checked={checked}
+                checked={topping1}
                 onChange={onChange}
                 />
                 </label>
@@ -53,7 +53,7 @@ const Form = (props) => {
                     <input
                     type='checkbox'
                     name='topping2'
-                    checked={checked}
+                    checked={topping2}
                     onChange={onChange}
                     />
                 </label>
@@ -61,7 +61,7 @@ const Form = (props) => {
                     <input
                     type='checkbox'
                     name='topping3'
-                    checked={checked}
+                    checked={topping3}
                     onChange={onChange}
                     />
                 </label>
@@ -69,7 +69,7 @@ const Form = (props) => {
                     <input
                     type='checkbox'
                     name='topping4'
-                    checked={checked}
+                    checked={topping4}
                     onChange={onChange}
                     />
                 </label>
@@ -84,7 +84,7 @@ const Form = (props) => {
                 onChange={onChange}
                 />
             </label>
-            <input type='Submit' value='Create your pizza' name='submit' id='order-button'/>
+            <button type='Submit' value='Create your pizza' name='submit' id='order-button'>Create your pizza!</button>
         </form>
         </div>
     )

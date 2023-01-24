@@ -12,5 +12,113 @@ code {
     monospace;
 }
 * {
-  border:1px solid red;
+  border:1px solid black;
+  background-color: maroon;
+}
+
+body{
+  font-size:1rem;
+}
+
+.navigation{
+  display:flex;
+  justify-content: space-between;
+  padding:10px;
+}
+h1{
+  padding:10px;
+  border:2px solid yellow;
+  display: flex;
+  margin:auto;
+  border-radius: 15px;
+}
+
+.nav-links{
+  display: flex;
+  align-items: center;
+}
+
+#homeL{
+  margin:3px;
+  border:2px solid rgb(1, 28, 1);
+  border-radius: 9px;
+  padding:2px;
+  text-decoration: none;
+  color:black;
+}
+
+#order-pizza{
+  margin:3px;
+  border:2px solid rgb(1, 28, 1);
+  border-radius: 9px;
+  padding:2px;
+  text-decoration: none;
+  color:black;
+}
+
+.pizza-img{
+  border:2px solid black;
+}
+
+p{
+  font-size:1.1rem;
+  text-align: center;
+  margin:1%;
+}
+#pizzaButt{
+padding:.5%;
+border:2px solid rgb(1, 28, 1);
+border-radius:9px;
+display:flex;
+margin:auto;
+}
+
+#pizza-butt-link{
+  text-decoration:none;
+  color:black;
+  font-size:1.2rem;
+}
+
+#pizza-contain{
+  border:2px solid black;
+  display:flex;
+  justify-content: space-evenly;
+  padding:5px;
+}
+.firstImg{
+  border:2px solid yellow;
+  height:40vh;
+  width:45%;
+}
+.secondImg{
+  border:2px solid rgb(1, 28, 1);
+  height:40vh;
+  width:45%;
+}
+
+h2{
+  display:flex;
+  justify-content:center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding:1px;
+  margin:5px;
+}
+label{
+  margin:5px;
+  padding:5px;
+  border:2px solid black;
+}
+
+#order-button{
+  font-size:1rem;
+  border:3px solid black;
+  padding:0px;
+  width:50%;
+  margin:auto;
+  border-radius:10px;
 }

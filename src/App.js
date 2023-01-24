@@ -53,10 +53,10 @@ const App = () => {
   
     <div>
       <header>
-        <nav>
+        <nav className='navigation'>
             <h1>Lambda Eats!</h1>
             <div className = 'nav-links'>
-                <Link to='/'>Home</Link>
+                <Link to='/' id='homeL'>Home</Link>
                 <Link to='/pizza' id='order-pizza'>Pizza Creation</Link>
             </div>
          </nav>
